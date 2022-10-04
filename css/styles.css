@@ -3,15 +3,15 @@
 
 *{
   margin: 0;
-  padding: 1px;
+  padding: 2px;
   /* background-color: black; */
 }
 body{
-  background-color: black;
+  background-color: white;
   text-align: center;
 }
 hr{
-  color: white;
+  color: black;
 }
 
 .nav{
@@ -19,23 +19,24 @@ hr{
   background-color: black;
   color:white; */
   font-family: 'Ubuntu', sans-serif;
+  
 }
 nav ul{
-  background-color: black;
+  background-color: white;
   display: flex;
   align-items: center;
   height: 65px;
-  color: white;
+  color: black;
   list-style-type: none;
-  padding: 10px ;
-  margin-top: 10px;
+  padding: 11px ;
+  margin-top: 12px;
 }
 nav ul li{
   padding: 5px 8px;
 }
 .brand img{
-  width: 45px;
-  padding: 0 3px;
+  width: 46px;
+  padding: 0 4px;
 }
 .brand{
   display: flex;
@@ -45,7 +46,7 @@ nav ul li{
 }
 a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 a:hover{
   color: red;
@@ -54,7 +55,7 @@ h4:hover{
   color: red;
 }
 h3,h4,h6{
-  color: white;
+  color: black;
   font-family: font-family: 'Ubuntu', sans-serif;
 }
 
@@ -69,10 +70,10 @@ iframe{
   width: 280px;
   height: 215px;
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1100px){
   iframe{
-    width: 95%;
-    height: 350px;
+    width: 97%;
+    height: 360px;
   }
   .h6{
     width:95%;
@@ -106,5 +107,5 @@ iframe{
 }
 footer{
   text-align: center;
-  color: white;
+  color: black;
 }
